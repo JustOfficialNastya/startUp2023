@@ -1,0 +1,27 @@
+.block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.pole{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border-radius: 5px;
+}
